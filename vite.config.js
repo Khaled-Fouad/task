@@ -13,6 +13,7 @@ export default defineConfig({
     tailwindcss(),
 
   ],
+  base:'/task/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
